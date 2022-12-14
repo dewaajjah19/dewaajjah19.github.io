@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="shortcut icon" href="/image/logo.png" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+
+    <!-- css link here! -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>vans shoes</title>
+  </head>
+  <body>
+    <!--===========home and header here==============  -->
+    <header>
+      <div class="logo">
+        <img src="/image/logo.png" alt="" />
+      </div>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#product">product</a>
+        <a href="#category">category</a>
+        <a href="#blog">blog</a>
+        <a href="#contact">contact</a>
+        <!-- <a href="#" class="btn">login</a> -->
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <section class="container" id="home">
+      <div class="content">
+        <h3>more style of shoes</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+          expedita autem enim porro doloribus fugiat totam praesentium, ratione
+          iusto consequuntur suscipit libero explicabo nostrum molestiae saepe
+          aut quod numquam!
+        </p>
+        <a href="/home-more/index.html" class="btn">learn more!</a>
+      </div>
+
+      <div class="image">
+        <img
+          class="shoes active"
+          src="/image/image1-removebg-preview.png"
+          alt=""
+        />
+        <img class="shoes" src="/image/vans2-removebg-preview.png" alt="" />
+        <img class="shoes" src="/image/image9-removebg-preview.png" alt="" />
+        <img class="shoes" src="/image/vans4-removebg-preview.png" alt="" />
+      </div>
+
+      <div class="left" onclick="prev()"><</div>
+      <div class="rigth" onclick=" next()">></div>
+    </section>
+
+    <!-- ===============about section here============== -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="/image/about.jpeg" alt="" />
+      </div>
+
+      <div class="about-text">
+        <h3>love your style</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+          voluptatem ipsam corrupti tempore esse, quibusdam doloribus
+          perferendis odio delectus earum illum dolore. Corporis consectetur,
+          est fugit consequuntur nisi dolorum id.
+        </p>
+        <a href="#" class="btn">learn more!</a>
+      </div>
+    </section>
+
+    <!-- ===============prouct section here======================= -->
+
+    <section class="product" id="product">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,96L120,90.7C240,85,480,75,720,85.3C960,96,1200,128,1320,144L1440,160L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
+        ></path>
+      </svg>
+
+      <div class="title">
+        <h3>more prouct vans shoes</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="slider">
+        <div class="slide-track">
+          <!-- ====9 slider==== -->
+
+          <div class="slide">
+            <img src="/image/image1.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image2.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image4.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image5.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image6.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image7.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image8.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image9.jpg" alt="" />
+          </div>
+
+          <!-- ====copy img 9==== -->
+
+          <div class="slide">
+            <img src="/image/image1.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image2.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image4.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image5.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image6.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image7.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image8.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/image/image9.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================category section here!==================== -->
+
+    <section id="category">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fd3434"
+          fill-opacity="1"
+          d="M0,256L21.8,218.7C43.6,181,87,107,131,117.3C174.5,128,218,224,262,240C305.5,256,349,192,393,160C436.4,128,480,128,524,149.3C567.3,171,611,213,655,192C698.2,171,742,85,785,69.3C829.1,53,873,107,916,122.7C960,139,1004,117,1047,128C1090.9,139,1135,181,1178,181.3C1221.8,181,1265,139,1309,138.7C1352.7,139,1396,181,1418,202.7L1440,224L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"
+        ></path>
+      </svg>
+
+      <h3 class="title">vans shoes category</h3>
+
+      <div class="body">
+        <div class="conntainer">
+          <div class="box">
+            <h2 class="name">vans sk8 height</h2>
+            <a href="/sk8/sk8.html" class="buy">explore now!</a>
+            <div class="circel">
+              <img
+                src="./image/category1-removebg-preview.png"
+                class="produk"
+              />
+            </div>
+          </div>
+          <div class="box">
+            <h2 class="name">vans old school</h2>
+            <a href="/old/old skool.html" class="buy">explore now!</a>
+            <div class="circel">
+              <img
+                src="./image/category2-removebg-preview.png"
+                class="produk"
+              />
+            </div>
+          </div>
+          <div class="box">
+            <h2 class="name">vans slip on</h2>
+            <a href="/slip/index.html" class="buy">explore now!</a>
+            <div class="circel">
+              <img
+                src="./image/category3-removebg-preview.png"
+                class="produk"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================blog sectionn here==================== -->
+
+    <section class="blog" id="blog">
+      <div class="content">
+        <h3>vans shoes</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="./image/video3.mp4"></span>
+        <span class="vid-btn" data-src="./image/video2.mp4"></span>
+        <span class="vid-btn" data-src="./image/video1.mp4"></span>
+        <span class="vid-btn" data-src="./image/video4.mp4"></span>
+        <span class="vid-btn" data-src="./image/video5.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="./image/video3.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- ===========================contact form section here!======================= -->
+    <section class="form-contact" id="contact">
+      <div class="contact">
+        <h1 class="contact-title">send youre message!</h1>
+        <p class="contact-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <form action="" name="contact-form">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="name" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn-submit">send message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ====================footer section here==================== -->
+
+    <section class="footer">
+      <footer>
+        <div class="row">
+          <div class="col">
+            <img src="/image/logo.png" class="logo2" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+              eum mollitia nesciunt facere quaerat soluta consequuntur sequi
+              quisquam numquam nam illo voluptate laborum dolorem vitae sunt
+              sed, dolore rem laudantium.
+            </p>
+          </div>
+          <div class="col">
+            <h3>office <div class="underline"><span></span></div></h3>
+            <p>ITPL road</p>
+            <p>whitefield, Bangalore</p>
+            <p>karnataka, PIN 560066</p>
+            <p class="email-id">vansshoes@gmail.com</p>
+            <h4>+62 - 08123677835</h4>
+          </div>
+          <div class="col">
+            <h3>links <div class="underline"><span></span></div></h3>
+            <ul>
+              <li><a href="">home</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">product</a></li>
+              <li><a href="">category</a></li>
+              <li><a href="">blog</a></li>
+              <li><a href="">contact</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>newsletter <div class="underline"><span></span></div></h3>
+            <form class="form">
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              <input type="email" placeholder="enter your email id" required />
+              <button type="submit">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+            <div class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <hr>
+          <p class="copyright">Vans Shoes 2022 - All Rights Reserved</p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- =================tilt script js here==================== -->
+    <script src="/vanilla-tilt.min.js"></script>
+  </body>
+
+  <!--===========java script here================ -->
+  <script src="/script.js"></script>
+</html>
